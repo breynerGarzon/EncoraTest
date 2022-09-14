@@ -19,4 +19,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Encora.Business\Encora.Business.csproj" />
+    <ProjectReference Include="..\Encora.Model\Encora.Model.csproj" />
+  </ItemGroup>
+
 </Project>
