@@ -46,17 +46,20 @@ To validate the functional tests, 6 test cases have been proposed where each of 
 
 | Original string value | Expected value string
 |-----------|:-----------:
-||
-||
-||
-||
-||
-||
-||
-||
-||
-||
+|dulgvgzwqg|gggdlquvwz
+|gxtjtmtywr|tttgjmrwxy
+|hnlnxiupgt|nnghilptux
+|gzjotckivp|cgijkoptvz
+|dpwwsdptae|ddppwwaest
+|pcscpilknb|ccppbiklns
+|btvyhhmflf|ffhhblmtvy
+|artrtnqxcr|rrrttacnqx
+|nrtcmcoadn|ccnnadmort
+|fkdsgnekft|ffkkdegnst
 - Execution evidence
+
+![image](https://user-images.githubusercontent.com/42897915/190918282-b4eeda92-a684-44f7-9bd7-dd39bee80280.png)
+
 
 ## Test case 3
  - Number of string: 5
@@ -64,12 +67,14 @@ To validate the functional tests, 6 test cases have been proposed where each of 
 
 | Original string value | Expected value string
 |-----------|:-----------:
-||
-||
-||
-||
-||
+|wzenwebuau|eeuuwwabnz
+|vokfxzynwl|fklnovwxyz
+|neldfeyrxk|eedfklnrxy
+|wqadfiodgs|ddafgioqsw
+|ykiuvzfcbc|ccbfikuvyz
 - Execution evidence
+
+![image](https://user-images.githubusercontent.com/42897915/190918377-0a45ccd6-faa7-4571-b8e0-5a29da0162b7.png)
 
 ## Test case 4
  - Number of string: 10
@@ -77,16 +82,19 @@ To validate the functional tests, 6 test cases have been proposed where each of 
 
 | Original string value | Expected value string
 |-----------|:-----------:
-||
-||
-||
-||
-||
-||
-||
-||
-||
-||
+|qakmc|ackmq
+|rrtbk|rrbkt
+|vaixn|ainvx
+|wmpnj|jmnpw
+|uproi|iopru
+|btska|abkst
+|ejqwr|ejqrw
+|elwlg|llegw
+|oaoiy|ooaiy
+|hrqkn|hknqr
+- Execution evidence
+
+![image](https://user-images.githubusercontent.com/42897915/190918460-1231b39f-9f65-4ef3-9429-6b6e3421c2e1.png)
 
 ## Test case 5
  - Number of string: 3
@@ -94,11 +102,12 @@ To validate the functional tests, 6 test cases have been proposed where each of 
 
 | Original string value | Expected value string
 |-----------|:-----------:
-||
-||
-||
-
+|pzjim|ijmpz
+|njnfq|nnfjq
+|xyohs|hosxy
 - Execution evidence
+
+![image](https://user-images.githubusercontent.com/42897915/190918499-da3f321f-5d77-4fe7-ac82-12ab8415ee8b.png)
 
 
 ## Test case 6
@@ -107,10 +116,27 @@ To validate the functional tests, 6 test cases have been proposed where each of 
 
 | Original string value | Expected value string
 |-----------|:-----------:
-||
-||
-||
-||
-||
+|xqycs|cqsxy
+|beoax|abeox
+|afkso|afkos
+|bldit|bdilt
+|gwrys|grswy
 
 - Execution evidence
+
+![image](https://user-images.githubusercontent.com/42897915/190918535-2bf1133c-dd7d-4925-a018-11204f34c6c3.png)
+
+# Evidence of unit tests:
+For this text string reordering test, a single unit test was proposed, which receives two input parameters, these are:
+- **_inputData:_** Stores the input value of a text string which will be sent to the **Encora.Business** layer for reordering.
+- **_expectedValue:_** Stores the expected value of the reordering of the field **_inputData_**
+
+Note: The test will be considered successful once the value of the output of the rearrangement of **_inputData_** is equal to **_expectedValue_**.
+
+For this unit test, 35 text strings with their respective expected reordering were supplied and they were successful.
+Supplied text strings.
+![image](https://user-images.githubusercontent.com/42897915/190919621-767eb28c-7f5a-43c4-a04e-c3481b32199c.png)
+
+Response execution of unit tests.
+![image](https://user-images.githubusercontent.com/42897915/190919677-d30a2f41-62b9-42c7-8073-39340be8fd75.png)
+
