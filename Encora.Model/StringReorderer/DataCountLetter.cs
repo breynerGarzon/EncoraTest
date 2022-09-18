@@ -1,4 +1,4 @@
-namespace Encora.Model.DataCountLetter
+namespace Encora.Model.StringReorderer
 {
     public class DataCountLetter
     {

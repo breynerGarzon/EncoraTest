@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using Encora.Model.DataCountLetter;
+using Encora.Model.StringReorderer;
 
 namespace Encora.Business.Interface
 {

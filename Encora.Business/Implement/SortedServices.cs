@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Encora.Business.Interface;
-using Encora.Model.DataCountLetter;
+using Encora.Model.StringReorderer;
 
 namespace Encora.Business.Implement
 {
